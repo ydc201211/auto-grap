@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    font-weight: "微软雅黑";
+}
+.content{
+    overflow: hidden;
+    width: 800px;
+    margin: 10px auto;
+    height: auto;
+    background: #fff;
+    
+    box-sizing: border-box;
+}
+table{
+    width: 800px;
+    border-bottom:2px solid #e6e6e6;
+}
+thead th{
+    width: 40px;
+    height: 30px;
+    padding: 0;
+    font-size: 14px;
+    font-weight: normal;
+    background: #f8f8f8;
+    border-bottom: 1px solid #e6e6e6;
+    /*border: 1px solid #d3d3d3;*/
+}
+/*tbody th{
+    
+    height: 60px;
+    font-size: 22px;
+    font-weight: normal;
+}*/
+tbody td{
+    height: 30px;
+    text-align: center;
+    padding: 0;
+}
+tbody td a{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    background: #ffa500;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.content .grap-all{
+    display: none;
+    float: right;
+    width: 80px;
+    height: 30px;
+    background: #1e90ff;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    margin:0 10px 10px 0;
+}
+
+tbody td a:hover{
+     background: #ff4500;
+}
+
+.set-icon{
+    display: block;
+    color: #d3d3d3;
+    font-size: 16px;
+    float:right;
+    margin: 10px 50px 0px 0px;
+}
+.start-auto{
+    float: left;
+    margin-left: 26px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background: #FF3333;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    
+}
+.stop-auto{
+    float: left;
+    margin-left: 26px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background: #00CC99;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    display: none;
+    
+}
+.flush-time{
+    line-height: 30px;
+    margin-left: 200px;
+    font-size: 16px;
+    color: #FF3300;
+}
+.reflush{
+    float: right;
+    margin-right: 10px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    background: #00CC99;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    display: none;
+}
+.order-info{
+    float: left;
+    margin: 10px 0px 0 6px;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}

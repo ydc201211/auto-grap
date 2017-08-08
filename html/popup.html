@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>auto-grap</title>
+    <meta charset="UTF-8">
+    <link href="/css/popup.css" rel="stylesheet">
+    <script type="text/javascript" src="/script/popup.js"></script>
+  </head>
+  <body>
+    <!--<a href="index.html" target="_blank">跳转</a>-->
+  <div class="content">
+      <div class="top-btn"> 
+        <a href="javascript:;" class="start-auto" onclick="start()" id="start-auto">开始</a>
+        <a href="javascript:;" class="stop-auto" onclick="stop()" id="stop-auto">暂停</a>
+        <a href="javascript:;" class="reflush" id="reflush">刷新</a>
+        <a href="javascript:;" class="grap-all" id="grap-all">一键抢单</a>
+        
+      </div>
+      <p class="flush-time">已为你刷新了:<span id="count">0</span>次</p>
+      
+      <form>
+      <table cellspace="0" cellpadding="0" border="0">
+          <thead>
+              <tr>
+                  <th>需求单号</th>
+                  <th>下单时间</th>
+                  <th>出游性质</th>
+                  <th>出发地</th>
+                  <th>目的地</th>
+                  <th>出发日期</th>
+                  <th>人均预算</th>
+                  <th>备注</th>
+                  <th>订单状态</th>
+                  <th>操作</th>
+              </tr>
+          </thead>
+          <tbody id="list">
+          </tbody>
+      </table>
+
+      </form>
+      <p class="order-info">已抢:<span id="grapOrderCount">0</span>单</p>
+      <a class="set-icon" href="setting.html" target="_blank">设置</a>
+  </div>
+  </body>
+ 
+</html>
+

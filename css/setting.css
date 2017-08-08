@@ -1,0 +1,63 @@
+body{
+    font-weight: "微软雅黑";
+}
+.container{
+    width: 600px;
+    height: 240px;
+    margin: 0 auto;
+    /*text-align: center;*/
+    border: 1px solid rgba(0, 0, 0, .3);
+    box-shadow: 0 0 3px rgba(0, 0, 0, .3);
+}
+header{
+    background: rgba(111, 178, 248, .1);
+}
+.title{
+    background: url(../image/icon.png) no-repeat;
+    width: 120px;
+    height: 32px;
+    background-size: 20px 20px;
+    padding: 0 0 0 26px;
+    font-size: 16px;
+    background-position: 4px 4px;
+    line-height: 26px;
+}
+.content fieldset{
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+fieldset legend{
+    color: #f00;
+    font-size: 16px;
+}
+fieldset ul{
+    list-style: none;
+}
+fieldset ul li{
+    margin: 10px 0px;
+}
+.submit{
+    padding: 0 10px;
+}
+.submit button{
+    background: #e6e6e6;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit button:hover{
+    color: #f00;
+}
+
+.grap-interval{
+    width: 50px;
+}
+.minCycle{
+    width: 40px;
+}
+.maxCycle{
+    width:40px;
+}
